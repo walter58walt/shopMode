@@ -18,7 +18,7 @@ function ProductDetails() {
       <Typography variant="h4" component="h1" gutterBottom>{product.name}</Typography>
       <Typography variant="h5">Ariary {product.price}</Typography>
       <Typography variant="body1">{product.description}</Typography>
-      <Button variant="contained" color="primary" style={{ marginTop: '20px' }}>Add to Cart</Button>
+      <Button variant="contained" color="primary" style={{ marginTop: '20px' }}>Add to Cart the product</Button>
     </Container>
   );
 }
