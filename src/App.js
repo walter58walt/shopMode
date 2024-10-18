@@ -7,7 +7,7 @@ import Cart from './pages/Cart';
 
 function App() {
   return (
-    <Router basename='/ProjectMui'>
+    <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
